@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Insect Catch Game</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Insect Catch Game</h1>
+      <button class="btn" id="start-btn">Play Game</button>
+    </div>
+    <div class="screen">
+      <h1>What is your favourite insect?</h1>
+      <ul class="insects-list">
+        <li>
+          <button class="choose-insect">
+            <p>Fly</p>
+            <img
+              src="http://pngimg.com/uploads/fly/fly_PNG3946.png"
+              alt="fly"
+            />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect">
+            <p>Mosquito</p>
+            <img
+              src="http://pngimg.com/uploads/mosquito/mosquito_PNG18175.png"
+              alt="Mosquito"
+            />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect">
+            <p>Spider</p>
+            <img
+              src="http://pngimg.com/uploads/spider/spider_PNG12.png"
+              alt="Spider"
+            />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect">
+            <p>Roach</p>
+            <img
+              src="http://pngimg.com/uploads/roach/roach_PNG12163.png"
+              alt="Roach"
+            />
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div class="screen game">
+      <h3 id="time">Time: 00:00</h3>
+      <h3 id="score">Score: 0</h3>
+      <h5 id="message">
+        Are you annoyed yet? <br />
+        You are playing an impossible game.
+      </h5>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
